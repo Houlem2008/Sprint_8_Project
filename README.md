@@ -1,9 +1,8 @@
 # Sprint_8_Project
-TripleTen Sprint 8 Final Project
 
-My Sprint 8, Supervised Learning, project. Sprint length was 2 weeks.
+*My Sprint 8, Supervised Learning, project. Sprint length was 2 weeks.*
 
-Instructions provided by TripleTen program:
+***Instructions provided by TripleTen program:***
 
 Congratulations! You’ve completed another training platform course. Now is the perfect time to test your skills and solve a new machine learning problem. For this project, you will be on your own.
 
@@ -13,46 +12,48 @@ Usually, this process has to be repeated several times until you get the green l
 
 Your project will be considered complete once the project reviewer approves it.
 
-Project description
+# Project description
 
 Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones.
 
 We need to predict whether a customer will leave the bank soon. You have the data on clients’ past behavior and termination of contracts with the bank.
 
-Build a model with the maximum possible F1 score. To pass the project, you need an F1 score of at least 0.59. Check the F1 for the test set.
+Build a model with the maximum possible *F1* score. To pass the project, you need an *F1* score of at least 0.59. Check the *F1* for the test set.
 
-Additionally, measure the AUC-ROC metric and compare it with the F1.
+Additionally, measure the *AUC-ROC* metric and compare it with the *F1*.
 
-Project instructions
+## Project instructions
 
 1. Download and prepare the data. Explain the procedure.
 2. Examine the balance of classes. Train the model without taking into account the imbalance. Briefly describe your findings.
 3. Improve the quality of the model. Make sure you use at least two approaches to fixing class imbalance. Use the training set to pick the best parameters. Train different models on training and validation sets. Find the best one. Briefly describe your findings.
 4. Perform the final testing.
 
-Data description
+## Data description
 
-The data can be found in /datasets/Churn.csv file.
+The data can be found in `/datasets/Churn.csv file`. [Download the dataset](https://drive.google.com/file/d/1PSMAJXzb5WIC_1UI_yP3_MyKPFY0G38c/view).
 
-Features
-- RowNumber — data string index
-- CustomerId — unique customer identifier
-- Surname — surname
-- CreditScore — credit score
-- Geography — country of residence
-- Gender — gender
-- Age — age
-- Tenure — period of maturation for a customer’s fixed deposit (years)
-- Balance — account balance
-- NumOfProducts — number of banking products used by the customer
-- HasCrCard — customer has a credit card
-- IsActiveMember — customer’s activeness
-- EstimatedSalary — estimated salary
+**Features**
 
-Target
-- Exited — сustomer has left
+- *RowNumber* — data string index
+- *CustomerId* — unique customer identifier
+- *Surname* — surname
+- *CreditScore* — credit score
+- *Geography* — country of residence
+- *Gender* — gender
+- *Age* — age
+- *Tenure* — period of maturation for a customer’s fixed deposit (years)
+- *Balance* — account balance
+- *NumOfProducts* — number of banking products used by the customer
+- *HasCrCard* — customer has a credit card
+- *IsActiveMember* — customer’s activeness
+- *EstimatedSalary* — estimated salary
 
-Project evaluation
+**Target**
+
+- *Exited* — сustomer has left
+
+# Project evaluation
 
 We’ve put together the evaluation criteria for the project. Read this carefully before moving on to the task.
 
